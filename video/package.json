@@ -1,0 +1,27 @@
+{
+  "name": "science-history-video",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc -p .",
+    "stills": "scripts/stills.sh",
+    "render:template": "scripts/render.sh Template template-demo"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.545",
+    "@remotion/effects": "4.0.545",
+    "@remotion/three": "4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.545",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2"
+  }
+}

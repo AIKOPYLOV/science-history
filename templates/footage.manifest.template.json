@@ -1,0 +1,29 @@
+{
+  "video": "<slug>",
+  "updated": "YYYY-MM-DD",
+  "assets": [
+    {
+      "file": "images/met-<objectID>-<что>.jpg",
+      "type": "image",
+      "title": "<название предмета>",
+      "source": "The Metropolitan Museum of Art (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/<objectID>",
+      "license": "cc0",
+      "object": {"accession": "<инв. номер>", "date": "<датировка по карточке>", "culture": "<культура>", "findspot": "<место находки>"},
+      "credit": "The Metropolitan Museum of Art, <инв. номер>",
+      "used_in": ["план 4 (0:12–0:16)"]
+    },
+    {
+      "file": "footage/pexels-desert-ruins-dawn.mp4",
+      "type": "video",
+      "title": "Desert ruins at dawn",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/video/<id>/",
+      "license": "Pexels License",
+      "creator": "<автор>",
+      "credit": "<автор> / Pexels",
+      "used_in": ["план 1"]
+    }
+  ],
+  "facts": {"sources": ["<научная публикация / музейная карточка>"]}
+}
