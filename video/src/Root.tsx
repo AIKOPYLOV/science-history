@@ -1,5 +1,6 @@
 import {Composition} from 'remotion';
 import {TemplateVideo, totalDuration} from './templates/TemplateVideo';
+import {RosettaStone, rosettaConfig} from './videos/rosetta-stone/RosettaStone';
 import {templateConfig} from './videos/_template/video.config';
 import {Cuneiform} from './videos/cuneiform/Cuneiform';
 import {cuneiformConfig} from './videos/cuneiform/video.config';
@@ -25,6 +26,7 @@ export const RemotionRoot: React.FC = () => {
 			<Composition id="Cuneiform" component={Cuneiform} durationInFrames={totalDuration(cuneiformConfig)} {...VIDEO} />
 			{/* «16 ворот жреца Хори» — стиль «световой стол» (docs/09-cinecraft.md). */}
 			<Composition id="HoriGates" component={HoriGates} durationInFrames={totalDuration(horiGatesConfig)} {...VIDEO} />
+			<Composition id="RosettaStone" component={RosettaStone} durationInFrames={totalDuration(rosettaConfig)} {...VIDEO} />
 		</>
 	);
 };
