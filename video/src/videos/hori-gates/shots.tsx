@@ -628,4 +628,3 @@ export const S15End: React.FC = () => {
 		</LightTable>
 	);
 };
-
